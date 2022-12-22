@@ -13,8 +13,8 @@ public:
     Pets();
     Pets(std :: string cName, std :: string cBreed, std :: string cGreeting, int yAge, int cMass);
     void printPet();
-    int getAge();
-    std :: string getGreeting();
-    std :: string getName();
-
+    int get_age();
+    std :: string get_greeting();
+    std :: string get_name();
+    //Start
 };
