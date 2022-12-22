@@ -12,4 +12,5 @@ public:
     int isPolite();
     const char *greeting;
     int sortedPets();
+    //Functions
 };
