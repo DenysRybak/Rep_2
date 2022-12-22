@@ -11,14 +11,15 @@ void Pets::printPet() {
     std:: cout <<"Name : " <<this->name<< ", Breed : " <<this->breed<< ", Greeting :"<<this->greeting<<", Age :" <<this->age<< ", Mass :" <<this->mass<<"\n";
 }
 
-int Pets::getAge() {
+int Pets::get_age() {
     return this -> age;
 }
-std::string Pets :: getName(){
+std::string Pets ::get_name(){
     return this -> name;
 }
-std::string Pets ::getGreeting() {
+std::string Pets ::get_greeting() {
     return this -> greeting;
+    //Reactions
 }
 
 
